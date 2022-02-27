@@ -1,8 +1,5 @@
 body
 
-.full-page {
-	background-color: #fbf9f7;
-}
 /* -------------------------------------------Top Elements: Desktop ------------------------------------------------------------*/
 .top-container {
 	background-color: #eff3f6;
@@ -396,6 +393,8 @@ a.portfolio-piece {
 
 
 @media screen and (max-width: 810px) {
+
+	body
 
 
 .top-container {
