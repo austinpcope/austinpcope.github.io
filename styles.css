@@ -346,7 +346,7 @@ a.portfolio-piece {
 	background-color: #eff3f6;
 	display: flex;
 	flex-direction: column; 
-	padding: 5%;
+	padding: 30%;
 }
 
 .contact-form-iframe { 
@@ -370,8 +370,8 @@ a.portfolio-piece {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center; 
 	font-color: #000000;
-	padding-left: 30%;
-	padding-right: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
 	display: inline-block;
 	
 }
