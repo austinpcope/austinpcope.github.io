@@ -361,6 +361,23 @@ a.portfolio-piece {
 
 /* -------------------------------------------Contact: Desktop ------------------------------------------------------------*/
 
+
+
+.contact-text p { 
+
+	font-size: 18px;
+	font-weight: regular;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center; 
+	font-color: #000000;
+	padding-left: 30%;
+	padding-right: 30%;
+	display: inline-block;
+	
+}
+
+
+
 .footer-container {
 	background-color: #eff3f6;
 	display: flex;
