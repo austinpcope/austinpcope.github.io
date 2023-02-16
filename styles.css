@@ -355,7 +355,7 @@ a.portfolio-piece {
 .contact-form-iframe { 
 	align-self: center;
 	display: flex;
-	min-width: 75%;
+	min-width: 100%;
 	height: auto;
 	align-items: center;
 
