@@ -1,4 +1,3 @@
-
 /* -------------------------------------------Top Elements: Desktop ------------------------------------------------------------*/
 .top-container {
 	background-color: #eff3f6;
@@ -113,6 +112,13 @@ a.nav-button:active {
 	margin-bottom: 2%;
 
 }
+
+.about-container {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
 	
 .about-text p {
 	font-size: 18px;
@@ -121,17 +127,32 @@ a.nav-button:active {
 	color: #000000;
 	padding-left: 15%;
 	padding-right: 15%;
-	display: inline-block;
+	display: block;
+	text-align:left; 
 
+}
+ .about-photo-container {
+	width:40%;
+	height:auto; 
+	display:flex;
+	flex-direction:column;
+	
 }
 
 .about-photo {
-	margin: 2%;
-	color: #000000;
-	align-self: center;
-	width: 25%;
-	height: 200px;
+	width: 100%;
+	height: auto;
+} 
+
+.about-photo-credit {
+ 	font-size: 12px;
+ 	color: #000000;
+	text-align:right;
+ 	
 }
+
+
+
 
 /* -------------------------------------------Featured: Desktop ------------------------------------------------------------*/
 
@@ -166,7 +187,7 @@ a.nav-button:active {
 	align-items: center;
 }
 
-.featured-photo { p
+.featured-photo {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -404,7 +425,7 @@ a.portfolio-piece {
 
 /* -------------------------------------------Top elements: Mobile------------------------------------------------------------*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width : 959px ){
 
 
 
@@ -527,16 +548,27 @@ a.portfolio-piece {
 		text-align: left;
 	}
 
-	.about-photo { /*placeholder in case photo is re-added in HTML. */ 
-		margin: 2%;
-		color: #000000;
-		align-self: center;
-		width: 25%;
-		height: 200px;
-		border-style: dashed;
-		border-color: #000000;
-		border-width: 2px;
-	}
+	
+.about-photo-container {
+	width:40%;
+	height:auto; 
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.about-photo {
+	width: 100%;
+	height: auto;
+} 
+
+.about-photo-credit {
+ 	font-size: 12px;
+ 	color: #000000;
+	text-align:right;
+ 	
+}
+
 
 
 	/* -------------------------------------------Featured: Mobile------------------------------------------------------------*/
@@ -776,9 +808,3 @@ a.portfolio-piece {
 	}
 
 }
-
-
-
-
-
-
